@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AutoLayout</string>
+
+    <string name="discount_recharge_card">折扣充值卡</string>
+    <string name="consumption_situation">消费情况</string>
+    <string name="cardnumber">剩余金额：100元\n使用规则：每次限用一张\n持卡人手机号：15855759630&#160;&#160;&#160;&#160;\n卡号：100000</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginTop="@dimen/x36"
+    android:layout_marginLeft="@dimen/x36"
+    android:layout_marginRight="@dimen/x36"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_style_left_gray"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x132">
+
+            <TextView
+                android:id="@+id/discount_recharge_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/x46"
+                android:layout_marginTop="@dimen/x44"
+                android:text="@string/discount_recharge_card"
+                android:textSize="@dimen/x60"/>
+
+            <TextView
+                android:id="@+id/tv_consume_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/discount_recharge_card"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x52"
+                android:gravity="center"
+                android:text="@string/consumption_situation"
+                android:textColor="@color/font_ff7f18"
+                android:textSize="@dimen/x42"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/x46"
+            android:layout_marginRight="@dimen/x52"
+            android:background="@color/gray_line"/>
+
+        <TextView
+            android:id="@+id/recharge_card_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/x44"
+            android:layout_marginLeft="@dimen/x46"
+            android:layout_marginTop="@dimen/x44"
+            android:lineSpacingExtra="@dimen/x5"
+            android:text="@string/cardnumber"
+            android:textColor="@color/c_6"
+            android:textSize="@dimen/x42"/>
+    </LinearLayout>
+
+    <View
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x30"/>
+
+</LinearLayout>
