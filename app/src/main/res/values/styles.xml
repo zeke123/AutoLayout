@@ -8,4 +8,41 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="top_group">
+        <item name="android:layout_height">100px</item>
+        <item name="android:layout_width">252px</item>
+        <item name="android:textSize">48px</item>
+        <item name="android:textColor">@drawable/commont_font</item>
+        <item name="android:background">@drawable/customer_discounts</item>
+    </style>
+
+
+
+    <style name="top_comment">
+        <item name="android:layout_height">100px</item>
+        <item name="android:layout_width">244px</item>
+        <item name="android:textSize">48px</item>
+        <item name="android:textColor">@drawable/commont_font</item>
+        <item name="android:background">@drawable/recharge_comment</item>
+    </style>
+
+
+    <style name="top_comment1">
+        <item name="android:layout_height">100px</item>
+        <item name="android:layout_width">242px</item>
+        <item name="android:textSize">48px</item>
+        <item name="android:textColor">@drawable/commont_font</item>
+        <item name="android:background">@drawable/recharge_comment</item>
+    </style>
+
+
+    <style name="top_all">
+        <item name="android:layout_height">100px</item>
+        <item name="android:layout_width">278px</item>
+        <item name="android:textSize">48px</item>
+        <item name="android:textColor">@drawable/commont_font</item>
+        <item name="android:background">@drawable/prepay_card_recharge</item>
+    </style>
+
 </resources>
